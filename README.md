@@ -1,8 +1,9 @@
 # AI-language-drift-proj
-Did ChatGPT change how humans write? Testing whether r/AskReddit language became more AI-like post-2022 using three independent NLP methods (TF-IDF, embeddings, LLM-as-judge), with a bot-filtering robustness check and a live detection demo.
-# Are We Writing Like AI? Language Drift on r/AskReddit Since ChatGPT
+Did increased interactions with LLM's change how humans write? Testing whether r/AskReddit language became more AI-like post-2022 using three independent NLP methods (TF-IDF, embeddings, LLM-as-judge), with a bot-filtering robustness check and a live detection demo.
 
-**Research question:** Has everyday online writing (r/AskReddit comments) become more AI-like since ChatGPT launched in November 2022?
+# Are We Writing Like AI? 
+
+**Research question:** Has everyday online writing (r/AskReddit comments) become more AI-like since access to ChatGPT/Claude/Gemini was given to the general public in 2022?
 
 This started as a linguistics final project and has been extended with modern NLP methods (sentence embeddings, LLM-as-judge) to cross-validate the original finding. Full methodology, results, and limitations below.
 
