@@ -103,13 +103,9 @@ A single significant p-value from one classifier is easy to overclaim. Running t
 
 ## Live demo
 
-`app/streamlit_app.py` — paste any text and get a live AI-probability read from the LLM-as-judge method. Run locally:
-
-```bash
 pip install -r requirements.txt
-export ANTHROPIC_API_KEY=your_key_here
-streamlit run app/streamlit_app.py
-```
+  export ANTHROPIC_API_KEY=your_key_here
+  python app/gradio_app.py
 
 ## Repo structure
 
@@ -118,7 +114,7 @@ streamlit run app/streamlit_app.py
 │   ├── ask-reddit-analysis-final.ipynb    # full pipeline: classifier, bot filtering, patterns, sentiment, Tier 1 methods — with real outputs
 │   └── tier1_embeddings_and_llm_judge.py  # Tier 1 cells as standalone reference
 ├── app/
-│   └── streamlit_app.py                  # live demo
+│   └── gradio_app.py                     # live demo
 ├── outputs/                              # saved charts + monthly_scores.csv
 ├── requirements.txt
 └── README.md
